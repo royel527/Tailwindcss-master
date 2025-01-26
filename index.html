@@ -7,8 +7,8 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-     <header class="lg:bg-gray-300 mb-60 h-210">
-<nav class="flex justify-between sm:fl">
+     <header class="bg-gray-300 ">
+<nav class="flex justify-between sm:flex">
     <div class="logo ml-20">
 <img class="w-3/4" src="icons/logo.png " alt="">
 </div> 
@@ -20,100 +20,177 @@
         <li><a class="text-3xl"  href="#">Contact</a></li>
     </ul></div>
 </nav>
-<section class="lg:flex gap-5 justify-around">
+
+<section class="lg:flex gap-5 justify-around align-center ">
     
-        <div class="text-center ml-20 mt-30 text-left">
-            <h1 class="text-5xl mt-15 uppercase font-bold"><span class="text-orange-600"> Be the Penguins</span> <br>
+        <div class="text-center lg:ml-20 ml-10 mt-10  text-left">
+            <h1 class="text-5xl lg:mt-15 uppercase font-bold"><span class="text-orange-600"> Be the Penguins</span> <br>
                 of Winter</h1>
-            <p class="text-2xl font-bold">This  is simply dummy text of the printing <br>
+            <p class="text-2xl font-bold">This  is simply dummy text of <br>the printing 
                 and typesetting industry.</p>
-                <button class="bg-blue-500 text-white px-10 py-2 rounded-full mt-5">Buy Now</button>
+                <button class="bg-gradient-to-r from-indigo-500 to-purple-600  text-white font-medium px-8 py-4 rounded-xl my-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                    class="size-6 text-whaite inline">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+                         3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+                          0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+                           0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg> Buy Now</button>
         </div>
-        <div>
-            <img class="mr-50" src="images/model.png" alt="">
+        <div class="pb-10">
+            <img class="lg:mr-50" src="images/model.png" alt="">
         </div>                  
 </section>
     </header> 
 
-    <main>     
-        <h1 class="text-4xl font-bold ml-10 my-10 ">Woman Jacket</h1>                                                          
-<section class="lg:flex gap-5 justify-around my-20 mx-30 sm:mx-20">   
-    <div class="jeket bg-gray-200  p-10 mb-20 ">                                             
-        <img class="w-100 h-auto " src="images/jacket-1.png" alt="">
+    <main class="max-w-7xl mx-auto sm:mt-10"> 
+        <h1 class="text-4xl font-bold ml-10 my-10 ">Woman Jacket</h1>     
+        <section class="grid grid cols-1 lg:grid-cols-3 gap-5">
+                                                                 
+   
+    <div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl">                                             
+        <img class="p-5 rounded-3xl bg-[#C8F5E1]" src="images/jacket-1.png" alt="">
  
-            <h1 class="text-3xl  mt-15 font-bold">Yellow Coat Jacket <br>
+            <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
                 of Winter</h1>
             <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
                 and typesetting industry.</p>
-                <div class="nutton text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white px-10 py-2 rounded-full mt-5 ml-10                                                                                                                                                                                    ">Buy Now</button></div>
-        </div>
-    </div>
-    <div class="jeket bg-gray-200  p-10 mb-20">
-        <img class="w-100 h-auto " src="images/jacket-2.png" alt="">
- 
-            <h1 class="text-3xl font-bold mt-15 font-bold">Ladies Jacket  <br>
-                of Winter</h1>
-            <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
-                and typesetting industry.</p>
-                <div class="nutton text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white px-10 py-2 rounded-full mt-5 ml-10 ">Buy Now</button></div>
-        </div>
-    </div>
-    <div class="jeket bg-gray-200  p-10 mb-20">
-        <img class="w-100 h-auto " src="images/jacket-3.png" alt="">
- 
-            <h1 class="text-3xl mt-15 font-bold">Woman Leather Jacket  <br>
-                of Winter</h1>
-            <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
-                and typesetting industry.</p>
-                <div class="nutton text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white px-10 py-2 rounded-full mt-5 ml-10 ">Buy Now</button></div>
-        </div>
+                <div class="flex justify-between text-orange-600 text-4xl ">
+                    <h2 class="text-4xl font-bold text-orange-400 mt-5">$235</h2> 
+                    <button class="bg-gradient-to-r from-indigo-300 to-purple-700 text-white font-medium px-8 py-4 rounded-xl ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                        class="size-6 text-whaite inline">
+
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+                             3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+                              0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+                               0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>Buy Now</button></div></div>
+
+
+
+                          <div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl shadow-xl">                                             
+                            <img class="p-5 rounded-3xl bg-[#B1F8F9]" src="images/jacket-2.png" alt="">
+                     
+                                <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
+                                    of Winter</h1>
+                                <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
+                                    and typesetting industry.</p>
+                                    <div class="flex justify-between text-orange-600 text-4xl ">
+                                        <h2 class="font-medium font-bold text-orange-400 mt-5">$235</h2> 
+                                        <button class="bg-gradient-to-r from-indigo-400 to-purple-700 text-white font-medium px-8 py-4 rounded-xl ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                                            class="size-6 text-whaite inline">
+                    
+                                                <path strokeLinecap="round" strokeLinejoin="round"
+                                                 d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+                                                 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+                                                  0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+                                                   0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                              </svg>Buy Now</button></div></div>
+
+                                              <div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl">                                             
+                                                <img class="p-5 rounded-3xl bg-[#E9B3A1]" src="images/jacket-3.png" alt="">
+                                         
+                                                    <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
+               of Winter</h1>
+        <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
+         and typesetting industry.</p>
+         <div class="flex justify-between text-orange-600 text-4xl ">
+       <h2 class="font-medium font-bold text-orange-400 mt-5">$235</h2> 
+ <button class="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-medium px-8 py-4 rounded-xl ">
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+  class="size-6 text-whaite inline">
+                                        
+     <path strokeLinecap="round" strokeLinejoin="round"
+    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+             3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+      0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+       0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </svg>Buy Now</button></div></div>
+
 </section>
 
-<h1 class="text-4xl font-bold ml-10 my-10 ">Man Jacket</h1>   
-<section class="lg:flex gap-5 justify-around my-20 mx-30 sm:mx-20">
-    <div class="jeket bg-gray-200  p-10 mb-20 sm:mx-20 ">                                             
-        <img class="w-100 h-auto " src="images/jacket-4.png" alt="">
- 
-            <h1 class="text-3xl mt-15 font-bold">Yellow Coat Jacket <br>
-                of Winter</h1>
-            <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
-                and typesetting industry.</p>
-                <div class="nutton text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white px-8 rounded-full mt-5 ml-16 px-8 py-2 ">Buy Now</button></div>
-        </div>
-    </div>
-    <div class="jeket bg-gray-200  p-10 mb-20 sm:mx-20">
-        <img class="w-100 h-auto " src="images/jacket-5.png" alt="">
- 
-            <h1 class="text-3xl font-bold mt-15 font-bold">Ladies Jacket  <br>
-                of Winter</h1>
-            <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
-                and typesetting industry.</p>
-                <div class="nutton text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white px-8 rounded-full mt-5 ml-16 px-8 py-2  ">Buy Now</button></div>
-        </div>
-    </div>
-    <div class="jeket bg-gray-200  p-10 mb-20 sm:mx-20">
-        <img class="w-100 h-auto " src="images/jacket-6.png" alt="">
- 
-            <h1 class="text-3xl font-bold mt-15 font-bold">Woman Leather Jacket  <br>
-                of Winter</h1>
-            <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
-                and typesetting industry.</p>
-                <div class="text-orange-600 text-4xl ">$235
-                <button class="bg-blue-500 text-white rounded-full mt-5 ml-16 px-8 py-2 ">Buy Now</button></div>
-        </div>
+
+
+<h1 class="text-4xl font-bold ml-10 my-10 ">Man Jacket</h1>     
+<section class="grid grid cols-1 lg:grid-cols-3 gap-5">
+                                                         
+
+<div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl">                                             
+<img class="p-5 rounded-3xl bg-[#F1A1F1] " src="images/jacket-4.png" alt="">
+
+    <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
+        of Winter</h1>
+    <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
+        and typesetting industry.</p>
+        <div class="flex justify-between text-orange-600 text-4xl ">
+            <h2 class="text-4xl font-bold text-orange-400 mt-5">$235</h2> 
+            <button class="bg-gradient-to-r from-indigo-700 to-purple-600 text-white font-medium px-8 py-4 rounded-xl ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                class="size-6 text-whaite inline">
+
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+                     3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+                      0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+                       0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>Buy Now</button></div></div>
+
+
+
+                  <div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl">                                             
+                    <img class="p-5 rounded-3xl bg-[#A1C1F1] " src="images/jacket-5.png" alt="">
+             
+                        <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
+                            of Winter</h1>
+                        <p class="text-xl font-bold">This  is simply dummy text of the printing <br>
+                            and typesetting industry.</p>
+                            <div class="flex justify-between text-orange-600 text-4xl ">
+                                <h2 class="font-medium font-bold text-orange-400 mt-5">$235</h2> 
+                                <button class="bg-gradient-to-r from-indigo-800 to-purple-600 text-white font-medium px-8 py-4 rounded-xl  ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                                    class="size-6 text-whaite inline">
+            
+                                        <path strokeLinecap="round" strokeLinejoin="round"
+                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+                                         3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+                                          0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+                                           0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                      </svg>Buy Now</button></div></div>
+
+                                      <div class="p-5 space-y-4 border-4 border-gray-200 rounded-3xl shadow-xl">                                             
+                                        <img class="p-5 rounded-3xl bg-[#F1F1D5]" src="images/jacket-6.png" alt="">
+                                 
+                                            <h1 class="text-3xl font-bold">Yellow Coat Jacket <br>
+       of Winter</h1>
+<p class="text-xl font-bold">This  is simply dummy text of the printing <br>
+ and typesetting industry.</p>
+ <div class="flex justify-between text-orange-600 text-4xl ">
+<h2 class="font-medium font-bold text-orange-400 mt-5">$235</h2> 
+<button class="bg-gradient-to-r from-indigo-400 to-purple-600 text-white font-medium px-8 py-4 rounded-xl ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+class="size-6 text-whaite inline">
+                                
+<path strokeLinecap="round" strokeLinejoin="round"
+d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 
+     3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0
+0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+</svg>Buy Now</button></div></div>
+
 </section>
+
+
     </main>
     <footer>
-<section class="lg:flex justify-between my-20 mx-30 sm:flex-row ">
-    <div class="" >
-    <div class="lg:flex gap-5 justify-around bg-red-100 mt-10 rounded-lg shadow-xl sm:flex-row sm:m-0 p-0">
-        <div class=" text-left sm:text-center">
-            <img class="w-18 h-auto m-3" src="icons/house.png" alt=""></div>
+<section class="lg:flex justify-around my-15 ">
+    <div class="container " >
+    <div class="lg:flex mx-15 bg-red-100 mt-10 rounded-lg shadow-xl sm:flex-row ">
+        <div class="ml-30 lg:ml-2 text-center lg:text-left">
+            <img class="w-18 h-auto " src="icons/house.png" alt=""></div>
             
             <div class="px-10 py-3">
             <h1 class="text-2xl  uppercase font-bold">Free Exchanges</h1>
@@ -124,8 +201,8 @@
                
         </div></div>
     
-<div class="lg:flex gap-5 justify-around bg-blue-200 mt-10 rounded-lg shadow-xl">
-        <div class=" text-left sm:text-center">
+<div class="lg:flex mx-15 bg-blue-200 mt-10 rounded-lg shadow-xl">
+        <div class="ml-30 lg:ml-5 text-center lg:text-left">
             <img class="w-18 h-auto m-3" src="icons/box.png" alt=""></div>
             
             <div class="px-10 py-3">
@@ -137,9 +214,9 @@
         </div></div>
 
       
-<div class="lg:flex gap-0 justify-around bg-gray-200 mt-10 rounded-lg shadow-xl">
-        <div class="text-center  text-left sm:text-center">
-            <img class="w-18 h-auto m-3   sm:" src="icons/question.png" alt=""></div>
+<div class="lg:flex mx-15 bg-gray-200 mt-10 rounded-lg shadow-xl">
+        <div class=" ml-30 lg:ml-5 text-center lg:text-left"> ">
+            <img class="w-18 h-auto m-3 " src="icons/question.png" alt=""></div>
             
             <div class="px-10 py-3">
             <h1 class="text-2xl  uppercase font-bold">Contact Our Seller</h1>
@@ -151,7 +228,7 @@
 
     </div>
 
-        <div class=" lg:w-1/2 mr-10 mt-10">
+        <div class="text-center mt-10">
             <img class="" src="images/shopping.png" alt="">
         </div>
 
